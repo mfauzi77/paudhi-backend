@@ -125,17 +125,17 @@ const seedNews = async () => {
     const news = [
       {
         title:
-          "Kemenko PMK Lakukan Monitoring dan Evaluasi Perlindungan dan Pemenuhan Hak Anak di DIY",
+          "Kementerian Koordinator Bidang Pembangunan Manusia dan Kebudayaan Lakukan Monitoring dan Evaluasi Perlindungan dan Pemenuhan Hak Anak di DIY",
         excerpt:
-          "Kemenko PMK melalui Asdep dr. Nia melakukan monitoring dan evaluasi sistem perlindungan anak di Provinsi DIY.",
+          "Kementerian Koordinator Bidang Pembangunan Manusia dan Kebudayaan melalui Asdep dr. Nia melakukan monitoring dan evaluasi sistem perlindungan anak di Provinsi DIY.",
         fullContent:
-          "<p>Yogyakarta – Kementerian Koordinator Bidang Pembangunan Manusia dan Kebudayaan (Kemenko PMK), melalui Asisten Deputi Perlindungan dan Pemenuhan Hak Anak (PPHA), melakukan kunjungan kerja ke Provinsi Daerah Istimewa Yogyakarta (DIY) pada 24–26 Juni 2025.</p>",
-        author: "Kemenko PMK",
+          "<p>Yogyakarta – Kementerian Koordinator Bidang Pembangunan Manusia dan Kebudayaan, melalui Asisten Deputi Perlindungan dan Pemenuhan Hak Anak (PPHA), melakukan kunjungan kerja ke Provinsi Daerah Istimewa Yogyakarta (DIY) pada 24–26 Juni 2025.</p>",
+        author: "Kementerian Koordinator Bidang Pembangunan Manusia dan Kebudayaan",
         authorId: admin._id,
         publishDate: new Date("2025-06-26"),
         readTime: "3 menit",
         icon: "fas fa-shield-alt",
-        tags: ["Perlindungan Anak", "Monitoring Evaluasi", "Kemenko PMK"],
+        tags: ["Perlindungan Anak", "Monitoring Evaluasi", "Kementerian Koordinator Bidang Pembangunan Manusia dan Kebudayaan"],
         status: "published",
         featured: true,
       },
@@ -143,10 +143,10 @@ const seedNews = async () => {
         title:
           "Deputi Woro Tegaskan Sinergi PAUD HI Hadapi ECDI 2030 untuk SDM Unggul",
         excerpt:
-          "Deputi Bidang Koordinasi Peningkatan Kualitas Anak, Perempuan, dan Pemuda Kemenko PMK menegaskan pentingnya sinergi lintas sektor.",
+          "Deputi Bidang Koordinasi Peningkatan Kualitas Anak, Perempuan, dan Pemuda Kementerian Koordinator Bidang Pembangunan Manusia dan Kebudayaan menegaskan pentingnya sinergi lintas sektor.",
         fullContent:
-          "<p>Kementerian PPN/Bappenas resmi meluncurkan Indeks Perkembangan Anak Usia Dini (ECDI) 2030 sebagai bagian dari upaya strategis menyongsong generasi Indonesia Emas 2045.</p>",
-        author: "Kemenko PMK",
+          "<p>Badan Perencanaan Pembangunan Nasional resmi meluncurkan Indeks Perkembangan Anak Usia Dini (ECDI) 2030 sebagai bagian dari upaya strategis menyongsong generasi Indonesia Emas 2045.</p>",
+        author: "Kementerian Koordinator Bidang Pembangunan Manusia dan Kebudayaan",
         authorId: admin._id,
         publishDate: new Date("2025-05-15"),
         readTime: "4 menit",

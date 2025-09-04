@@ -36,7 +36,7 @@ const testNewsDataStructure = () => {
       fullName: 'John Doe',
       email: 'john@example.com',
       role: 'admin_utama',
-      klName: 'Kemenko PMK'
+      klName: 'Kementerian Koordinator Bidang Pembangunan Manusia dan Kebudayaan'
     },
     status: 'draft',
     isActive: true,
@@ -108,12 +108,12 @@ const testAuthorDisplayLogic = () => {
     },
     {
       author: null,
-      expected: 'Kemenko PMK',
+      expected: 'Kementerian Koordinator Bidang Pembangunan Manusia dan Kebudayaan',
       description: 'No author object'
     },
     {
       author: {},
-      expected: 'Kemenko PMK',
+      expected: 'Kementerian Koordinator Bidang Pembangunan Manusia dan Kebudayaan',
       description: 'Empty author object'
     }
   ];
@@ -127,7 +127,7 @@ const testAuthorDisplayLogic = () => {
     } else if (author?.email) {
       displayName = author.email;
     } else {
-      displayName = 'Kemenko PMK';
+      displayName = 'Kementerian Koordinator Bidang Pembangunan Manusia dan Kebudayaan';
     }
     
     if (displayName === testCase.expected) {

@@ -10,7 +10,7 @@ mongoose.connect('mongodb://localhost:27017/paudhi', {
 const sampleData = [
   {
     klId: "KEMENKO_PMK",
-    klName: "Kemenko PMK",
+    klName: "Kementerian Koordinator Bidang Pembangunan Manusia dan Kebudayaan",
     program: "Program PAUD Holistik Integratif 2025",
     indikators: [
       {
@@ -47,8 +47,8 @@ const sampleData = [
     updatedBy: "507f1f77bcf86cd799439011",
   },
   {
-    klId: "KEMENDIKDASMEN",
-    klName: "Kemendikdasmen",
+    klId: "KEMENDIKBUDRISTEK",
+    klName: "Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi",
     program: "Pengembangan Kurikulum PAUD Nasional",
     indikators: [
       {
@@ -72,7 +72,7 @@ const sampleData = [
   },
   {
     klId: "KEMENKES",
-    klName: "Kemenkes",
+    klName: "Kementerian Kesehatan",
     program: "Program Kesehatan Anak Usia Dini",
     indikators: [
       {
@@ -96,7 +96,7 @@ const sampleData = [
   },
   {
     klId: "KEMENSOS",
-    klName: "Kemensos",
+    klName: "Kementerian Sosial",
     program: "Program Perlindungan Sosial Anak",
     indikators: [
       {

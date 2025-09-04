@@ -7,80 +7,80 @@ const klUsers = [
     username: "admin_bps",
     email: "admin.bps@paudhi.kemenko.go.id",
     password: "bps123",
-    fullName: "Administrator BPS",
+            fullName: "Administrator Badan Pusat Statistik",
     role: "admin_kl",
     klId: "BPS",
-    klName: "BPS",
+    klName: "Badan Pusat Statistik",
     isActive: true,
   },
   {
     username: "admin_kemenkes",
     email: "admin.kemenkes@paudhi.kemenko.go.id",
     password: "kemenkes123",
-    fullName: "Administrator Kemenkes",
+            fullName: "Administrator Kementerian Kesehatan",
     role: "admin_kl",
     klId: "KEMENKES",
-    klName: "Kemenkes",
+            klName: "Kementerian Kesehatan",
     isActive: true,
   },
   {
-    username: "admin_kemendikdasmen",
-    email: "admin.kemendikdasmen@paudhi.kemenko.go.id",
-    password: "kemendikdasmen123",
-    fullName: "Administrator Kemendikdasmen",
-    role: "admin_kl",
-    klId: "KEMENDIKDASMEN",
-    klName: "Kemendikdasmen",
+            username: "admin_kemendikbudristek",
+        email: "admin.kemendikbudristek@paudhi.kemenko.go.id",
+        password: "kemendikbudristek123",
+        fullName: "Administrator Kemendikbudristek",
+        role: "admin_kl",
+        klId: "KEMENDIKBUDRISTEK",
+        klName: "Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi",
     isActive: true,
   },
   {
     username: "admin_kemenag",
     email: "admin.kemenag@paudhi.kemenko.go.id",
     password: "kemenag123",
-    fullName: "Administrator Kemenag",
+            fullName: "Administrator Kementerian Agama",
     role: "admin_kl",
     klId: "KEMENAG",
-    klName: "Kemenag",
+            klName: "Kementerian Agama",
     isActive: true,
   },
   {
-    username: "admin_kemendes_pdt",
-    email: "admin.kemendes@paudhi.kemenko.go.id",
-    password: "kemendes123",
-    fullName: "Administrator Kemendes PDT",
-    role: "admin_kl",
-    klId: "KEMENDES_PDT",
-    klName: "Kemendes PDT",
+            username: "admin_kemendes_pdtt",
+        email: "admin.kemendes@paudhi.kemenko.go.id",
+        password: "kemendes123",
+        fullName: "Administrator Kementerian Desa, Pembangunan Daerah Tertinggal, dan Transmigrasi",
+        role: "admin_kl",
+        klId: "KEMENDES_PDTT",
+        klName: "Kementerian Desa, Pembangunan Daerah Tertinggal, dan Transmigrasi",
     isActive: true,
   },
   {
-    username: "admin_bkkbn",
-    email: "admin.bkkbn@paudhi.kemenko.go.id",
-    password: "bkkbn123",
-    fullName: "Administrator BKKBN",
-    role: "admin_kl",
-    klId: "BKKBN",
-    klName: "BKKBN",
+            username: "admin_kemendukbangga",
+        email: "admin.kemendukbangga@paudhi.kemenko.go.id",
+        password: "kemendukbangga123",
+        fullName: "Administrator Kementerian Pembangunan Kependudukan dan Keluarga Berencana Nasional",
+        role: "admin_kl",
+        klId: "KEMENDUKBANGGA",
+        klName: "Kementerian Pembangunan Kependudukan dan Keluarga Berencana Nasional",
     isActive: true,
   },
   {
     username: "admin_kemensos",
     email: "admin.kemensos@paudhi.kemenko.go.id",
     password: "kemensos123",
-    fullName: "Administrator Kemensos",
+            fullName: "Administrator Kementerian Sosial",
     role: "admin_kl",
     klId: "KEMENSOS",
-    klName: "Kemensos",
+            klName: "Kementerian Sosial",
     isActive: true,
   },
   {
-    username: "admin_kpppa",
-    email: "admin.kpppa@paudhi.kemenko.go.id",
-    password: "kpppa123",
-    fullName: "Administrator KPPPA",
-    role: "admin_kl",
-    klId: "KPPPA",
-    klName: "KPPPA",
+            username: "admin_kemenpppa",
+        email: "admin.kemenpppa@paudhi.kemenko.go.id",
+        password: "kemenpppa123",
+        fullName: "Administrator Kementerian Pemberdayaan Perempuan dan Perlindungan Anak",
+        role: "admin_kl",
+        klId: "KEMENPPPA",
+        klName: "Kementerian Pemberdayaan Perempuan dan Perlindungan Anak",
     isActive: true,
   },
   {
@@ -97,10 +97,10 @@ const klUsers = [
     username: "admin_bappenas",
     email: "admin.bappenas@paudhi.kemenko.go.id",
     password: "bappenas123",
-    fullName: "Administrator Bappenas",
+            fullName: "Administrator Badan Perencanaan Pembangunan Nasional",
     role: "admin_kl",
     klId: "BAPPENAS",
-    klName: "Bappenas",
+            klName: "Badan Perencanaan Pembangunan Nasional",
     isActive: true,
   },
 ];
@@ -141,15 +141,15 @@ async function createKLAdminUsers() {
     console.log("\n🎉 K/L admin users creation completed!");
     console.log("\n📧 Login Credentials:");
     console.log("BPS: admin.bps@paudhi.kemenko.go.id / bps123");
-    console.log("Kemenkes: admin.kemenkes@paudhi.kemenko.go.id / kemenkes123");
-    console.log("Kemendikdasmen: admin.kemendikdasmen@paudhi.kemenko.go.id / kemendikdasmen123");
-    console.log("Kemenag: admin.kemenag@paudhi.kemenko.go.id / kemenag123");
-    console.log("Kemendes PDT: admin.kemendes@paudhi.kemenko.go.id / kemendes123");
-    console.log("BKKBN: admin.bkkbn@paudhi.kemenko.go.id / bkkbn123");
-    console.log("Kemensos: admin.kemensos@paudhi.kemenko.go.id / kemensos123");
-    console.log("KPPPA: admin.kpppa@paudhi.kemenko.go.id / kpppa123");
+    console.log("Kementerian Kesehatan: admin.kemenkes@paudhi.kemenko.go.id / kemenkes123");
+    console.log("Kemendikbudristek: admin.kemendikbudristek@paudhi.kemenko.go.id / kemendikbudristek123");
+    console.log("Kementerian Agama: admin.kemenag@paudhi.kemenko.go.id / kemenag123");
+    console.log("Kementerian Desa, Pembangunan Daerah Tertinggal, dan Transmigrasi: admin.kemendes@paudhi.kemenko.go.id / kemendes123");
+    console.log("Kementerian Pembangunan Kependudukan dan Keluarga Berencana Nasional: admin.kemendukbangga@paudhi.kemenko.go.id / kemendukbangga123");
+    console.log("Kementerian Sosial: admin.kemensos@paudhi.kemenko.go.id / kemensos123");
+    console.log("Kementerian Pemberdayaan Perempuan dan Perlindungan Anak: admin.kemenpppa@paudhi.kemenko.go.id / kemenpppa123");
     console.log("Kemendagri: admin.kemendagri@paudhi.kemenko.go.id / kemendagri123");
-    console.log("Bappenas: admin.bappenas@paudhi.kemenko.go.id / bappenas123");
+    console.log("Badan Perencanaan Pembangunan Nasional: admin.bappenas@paudhi.kemenko.go.id / bappenas123");
 
     process.exit(0);
   } catch (error) {

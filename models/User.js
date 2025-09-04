@@ -37,13 +37,13 @@ const userSchema = new mongoose.Schema(
       },
       enum: [
         "KEMENKO_PMK",
-        "KEMENDIKDASMEN",
+        "KEMENDIKBUDRISTEK",
         "KEMENAG",
-        "KEMENDES_PDT",
+        "KEMENDES_PDTT",
         "KEMENKES",
-        "BKKBN",
+        "KEMENDUKBANGGA",
         "KEMENSOS",
-        "KPPPA",
+        "KEMENPPPA",
         "KEMENDAGRI",
         "BAPPENAS",
         "BPS",
@@ -163,17 +163,17 @@ userSchema.methods.comparePassword = async function (candidatePassword) {
 // Get KL list for admin_kl users
 userSchema.statics.getKLList = function () {
   return [
-    { id: "KEMENKO_PMK", name: "Kemenko PMK" },
-    { id: "KEMENDIKDASMEN", name: "Kemendikdasmen" },
-    { id: "KEMENAG", name: "Kemenag" },
-    { id: "KEMENDES_PDT", name: "Kemendes PDT" },
-    { id: "KEMENKES", name: "Kemenkes" },
-    { id: "BKKBN", name: "BKKBN" },
-    { id: "KEMENSOS", name: "Kemensos" },
-    { id: "KPPPA", name: "KPPPA" },
+    { id: "KEMENKO_PMK", name: "Kementerian Koordinator Bidang Pembangunan Manusia dan Kebudayaan" },
+    { id: "KEMENDIKBUDRISTEK", name: "Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi" },
+    { id: "KEMENAG", name: "Kementerian Agama" },
+    { id: "KEMENDES_PDTT", name: "Kementerian Desa, Pembangunan Daerah Tertinggal, dan Transmigrasi" },
+    { id: "KEMENKES", name: "Kementerian Kesehatan" },
+    { id: "KEMENDUKBANGGA", name: "Kementerian Pembangunan Kependudukan dan Keluarga Berencana Nasional" },
+    { id: "KEMENSOS", name: "Kementerian Sosial" },
+    { id: "KEMENPPPA", name: "Kementerian Pemberdayaan Perempuan dan Perlindungan Anak" },
     { id: "KEMENDAGRI", name: "Kemendagri" },
-    { id: "BAPPENAS", name: "Bappenas" },
-    { id: "BPS", name: "BPS" },
+    { id: "BAPPENAS", name: "Badan Perencanaan Pembangunan Nasional" },
+    { id: "BPS", name: "Badan Pusat Statistik" },
   ];
 };
 

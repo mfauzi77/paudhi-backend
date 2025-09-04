@@ -5,7 +5,7 @@ const RanPaud = require('../models/RanPaud');
 const sampleKLData = [
   {
     klId: 'kemenko-pmk',
-    klName: 'Kemenko PMK',
+    klName: 'Kementerian Koordinator Bidang Pembangunan Manusia dan Kebudayaan',
     program: 'Program Koordinasi PAUD HI',
     indikators: [
       {
@@ -31,8 +31,8 @@ const sampleKLData = [
     ]
   },
   {
-    klId: 'kemendikdasmen',
-    klName: 'Kemendikdasmen',
+    klId: 'kemendikbudristek',
+    klName: 'Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi',
     program: 'Program Pendidikan Anak Usia Dini',
     indikators: [
       {
@@ -59,7 +59,7 @@ const sampleKLData = [
   },
   {
     klId: 'kemenkes',
-    klName: 'Kemenkes',
+    klName: 'Kementerian Kesehatan',
     program: 'Program Kesehatan Ibu dan Anak',
     indikators: [
       {
@@ -85,8 +85,8 @@ const sampleKLData = [
     ]
   },
   {
-    klId: 'bkkbn',
-    klName: 'BKKBN',
+    klId: 'kemendukbangga',
+    klName: 'Kementerian Pembangunan Kependudukan dan Keluarga Berencana Nasional',
     program: 'Program Keluarga Berencana',
     indikators: [
       {
@@ -103,7 +103,7 @@ const sampleKLData = [
   },
   {
     klId: 'kemensos',
-    klName: 'Kemensos',
+    klName: 'Kementerian Sosial',
     program: 'Program Kesejahteraan Sosial',
     indikators: [
       {

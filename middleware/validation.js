@@ -27,7 +27,7 @@ const validateNews = (req, res, next) => {
     title: Joi.string().max(200).required(),
     excerpt: Joi.string().max(300).required(),
     fullContent: Joi.string().required(),
-    author: Joi.string().default('Kemenko PMK'),
+    author: Joi.string().default('Kementerian Koordinator Bidang Pembangunan Manusia dan Kebudayaan'),
     readTime: Joi.string().default('3 menit'),
     icon: Joi.string().default('fas fa-newspaper'),
     tags: Joi.alternatives().try(

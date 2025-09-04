@@ -1262,17 +1262,17 @@ router.get("/kl-mapping", async (req, res) => {
     console.log("🏛️ KL mapping request received");
 
     const klMapping = {
-      'KEMENKO_PMK': 'Kemenko PMK',
-      'KEMENDIKDASMEN': 'Kemendikdasmen',
-      'KEMENAG': 'Kemenag',
-      'KEMENDES_PDT': 'Kemendesa',
-      'KEMENKES': 'Kemenkes',
-      'BKKBN': 'BKKBN',
-      'KEMENSOS': 'Kemensos',
-      'KPPPA': 'Kemen PPPA',
+      'KEMENKO_PMK': 'Kementerian Koordinator Bidang Pembangunan Manusia dan Kebudayaan',
+      'KEMENDIKBUDRISTEK': 'Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi',
+      'KEMENAG': 'Kementerian Agama',
+      'KEMENDES_PDTT': 'Kementerian Desa, Pembangunan Daerah Tertinggal, dan Transmigrasi',
+      'KEMENKES': 'Kementerian Kesehatan',
+      'KEMENDUKBANGGA': 'Kementerian Pembangunan Kependudukan dan Keluarga Berencana Nasional',
+      'KEMENSOS': 'Kementerian Sosial',
+      'KEMENPPPA': 'Kementerian Pemberdayaan Perempuan dan Perlindungan Anak',
       'KEMENDAGRI': 'Kemendagri',
-      'BAPPENAS': 'Bappenas',
-      'BPS': 'BPS'
+      'BAPPENAS': 'Badan Perencanaan Pembangunan Nasional',
+      'BPS': 'Badan Pusat Statistik'
     };
 
     console.log("✅ KL mapping returned");
@@ -1864,17 +1864,17 @@ router.get("/kl-mapping/public", async (req, res) => {
     console.log("🏛️ KL mapping request (PUBLIC)");
 
     const klMapping = {
-      'KEMENKO_PMK': 'Kemenko PMK',
-      'KEMENDIKDASMEN': 'Kemendikdasmen',
-      'KEMENAG': 'Kemenag',
-      'KEMENDES_PDT': 'Kemendesa',
-      'KEMENKES': 'Kemenkes',
-      'BKKBN': 'BKKBN',
-      'KEMENSOS': 'Kemensos',
-      'KPPPA': 'Kemen PPPA',
+      'KEMENKO_PMK': 'Kementerian Koordinator Bidang Pembangunan Manusia dan Kebudayaan',
+      'KEMENDIKBUDRISTEK': 'Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi',
+      'KEMENAG': 'Kementerian Agama',
+      'KEMENDES_PDTT': 'Kementerian Desa, Pembangunan Daerah Tertinggal, dan Transmigrasi',
+      'KEMENKES': 'Kementerian Kesehatan',
+      'KEMENDUKBANGGA': 'Kementerian Pembangunan Kependudukan dan Keluarga Berencana Nasional',
+      'KEMENSOS': 'Kementerian Sosial',
+      'KEMENPPPA': 'Kementerian Pemberdayaan Perempuan dan Perlindungan Anak',
       'KEMENDAGRI': 'Kemendagri',
-      'BAPPENAS': 'Bappenas',
-      'BPS': 'BPS'
+      'BAPPENAS': 'Badan Perencanaan Pembangunan Nasional',
+      'BPS': 'Badan Pusat Statistik'
     };
 
     console.log("✅ PUBLIC: KL mapping returned");
